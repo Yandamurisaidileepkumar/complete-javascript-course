@@ -35,10 +35,32 @@
 // let halfPop = popMain / 2;
 // console.log(halfPop);
 // halfPop++;
-// console.log(halfPop);
+/* // console.log(halfPop);
 PopFin = 600000000;
 PopInd = 1400000000;
 console.log(PopInd > PopFin);
 let description =
   "Portugal is in Europe, and its 11 million people speak portuguese";
-console.log(description);
+console.log(description); */
+
+// let finPop = 110000000;
+// let description = `portugal is in Europe and its ${finPop} people speak portuguese`;
+// console.log(description);
+
+/* let IndPop = 1417170000;
+if (IndPop > 33000000) {
+  console.log("Portugal's population is above average");
+} else {
+  console.log("Portugal's population is 22 million below average");
+}
+ */
+/* 9' - '5';
+'19' - '13' + '17';
+'19' - '13' + 17;
+'123' < 57;
+5 + 6 + '4' + 9 - 4 - 2; */
+console.log("9" - "5");
+console.log("19" - "13" + "17");
+console.log("19" - "13" + 17);
+console.log("123" < 57);
+console.log(5 + 6 + "4" + 9 - 4 - 2);

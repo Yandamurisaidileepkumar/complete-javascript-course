@@ -35,7 +35,7 @@ console.log(myFirstJob);*/
 
 // string literals
 
-let firstName = "dileep";
+/* let firstName = "dileep";
 let job = "teacher";
 let birthYear = 1998;
 let year = 2023;
@@ -44,3 +44,24 @@ let emp = `i am ${firstName} having an age of ${
   year - birthYear
 } doing a job as a ${job}`;
 console.log(emp);
+ */
+
+// DECISION  making if /else statements
+
+/* let age = 20;
+const isoldenough = age >= 18;
+if (isoldenough) {
+  console.log("dileep can start his licence😍");
+} else {
+  console.log("dileep cannot start his licence😒");
+} */
+
+let age = 15;
+if (age >= 18) {
+  console.log("Dileep can start his driving licence🚗");
+} else {
+  let years = 18 - age;
+  console.log(
+    `Dileep is too young,he need to wait for ${years} years to start the driving licence`
+  );
+}
