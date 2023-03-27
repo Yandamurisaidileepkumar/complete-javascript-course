@@ -56,7 +56,7 @@ if (isoldenough) {
   console.log("dileep cannot start his licence😒");
 } */
 
-let age = 15;
+/* let age = 15;
 if (age >= 18) {
   console.log("Dileep can start his driving licence🚗");
 } else {
@@ -64,4 +64,11 @@ if (age >= 18) {
   console.log(
     `Dileep is too young,he need to wait for ${years} years to start the driving licence`
   );
+} */
+
+let a = "10";
+if (a == 10) {
+  console.log("surya is  Rolex");
+} else {
+  console.log("dileep is DIlli");
 }

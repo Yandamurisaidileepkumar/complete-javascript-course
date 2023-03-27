@@ -59,8 +59,18 @@ if (IndPop > 33000000) {
 '19' - '13' + 17;
 '123' < 57;
 5 + 6 + '4' + 9 - 4 - 2; */
-console.log("9" - "5");
+/* console.log("9" - "5");
 console.log("19" - "13" + "17");
 console.log("19" - "13" + 17);
 console.log("123" < 57);
-console.log(5 + 6 + "4" + 9 - 4 - 2);
+console.log(5 + 6 + "4" + 9 - 4 - 2); */
+
+// falsy and truthy value
+//the falsy value are 0,NAN,Undefined,Null,""-empty string
+// truthy values are {},[],if space is there between the empty string then it is a truthy value
+let emp = "";
+if (emp) {
+  console.log("not an empty");
+} else {
+  console.log("empty");
+}
