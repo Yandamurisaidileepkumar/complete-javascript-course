@@ -66,9 +66,14 @@ if (age >= 18) {
   );
 } */
 
-let a = "10";
+/* let a = "10";
 if (a == 10) {
   console.log("surya is  Rolex");
 } else {
   console.log("dileep is DIlli");
 }
+ */
+
+// ternory operator
+const drink = age >= 18 ? "wine🍷" : "water💧";
+console.log(drink);

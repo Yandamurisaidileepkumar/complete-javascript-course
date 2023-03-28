@@ -110,7 +110,7 @@ if (numNeighbours === 1) {
 
 //Logical Operators
 
-let conName = "United States Of America";
+/* let conName = "United States Of America";
 let conLang = "English";
 let conPop = 500000000;
 if (conLang === "English" && conPop <= 500000000) {
@@ -122,3 +122,22 @@ if (conLang === "English" && conPop <= 500000000) {
     "country doesn't meet Sarah's criteria and sarah cannot live in the country "
   );
 }
+ */
+
+//switch challenge using if /else
+
+/* let day = "sunday";
+if (day === "monday") {
+  console.log("plan course structure");
+  console.log("go to coding meetup");
+} else if (day === "tuesday") {
+  console.log("prepare theory videos");
+} else if (day === "thursday" || day === "wednesday") {
+  console.log("write code examples");
+} else if (day === "friday") {
+  console.log("Record Videos");
+} else if (day === "saturday" || day === "sunday") {
+  console.log("enjoy the weekend😍");
+} else {
+  console.log("not a valid day!");
+} */
