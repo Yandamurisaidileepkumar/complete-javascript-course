@@ -102,7 +102,7 @@ Test data:
 GOOD LUCK � */
 
 // data 1
-dolR1 = 96;
+/* dolR1 = 96;
 dolR2 = 108;
 dolR3 = 89;
 koaR1 = 88;
@@ -112,8 +112,81 @@ dolAvg = (dolR1 + dolR2 + dolR3) / 3;
 console.log(dolAvg);
 koaAvg = (koaR1 + koaR2 + koaR3) / 3;
 console.log(koaAvg);
-if (dolAvg > koaAvg) {
-  console.log("dolphins team wins the trophy");
-} else {
-  console.log("Koalas team wins the trophy");
+
+if (dolAvg > koaAvg && dolAvg >= 100) {
+  console.log("dolphin team wins the trophy and meets the minimum score");
+} else if (dolAvg > koaAvg && dolAvg <= 100) {
+  console.log("dolphin teams wins the trophy,but not meets the minimum score");
+}
+if (koaAvg > dolAvg && koaAvg >= 100) {
+  console.log("kolas team wins the trophy and meets the minimum score");
+} else if (koaAvg > dolAvg && koaAvg <= 100) {
+  console.log("Kolas teams wins the trophy,but not meets the minimum score");
+}
+if (dolAvg === koaAvg && dolAvg >= 100 && koaAvg >= 100) {
+  console.log("the teams are having a draw match and meets the minimum score");
+} else if (dolAvg === koaAvg && dolAvg <= 100 && koaAvg <= 100) {
+  console.log("the teams are having a draw match but not meets the minimu score");
+} */
+
+// data2
+
+/* dolR1 = 97;
+dolR2 = 112;
+dolR3 = 101;
+koaR1 = 109;
+koaR2 = 95;
+koaR3 = 123;
+dolAvg = (dolR1 + dolR2 + dolR3) / 3;
+console.log(dolAvg);
+koaAvg = (koaR1 + koaR2 + koaR3) / 3;
+console.log(koaAvg);
+
+if (dolAvg > koaAvg && dolAvg >= 100) {
+  console.log("dolphin team wins the trophy and meets the minimum score");
+} else if (dolAvg > koaAvg && dolAvg <= 100) {
+  console.log("dolphin teams wins the trophy,but not meets the minimum score");
+}
+if (koaAvg > dolAvg && koaAvg >= 100) {
+  console.log("kolas team wins the trophy and meets the minimum score");
+} else if (koaAvg > dolAvg && koaAvg <= 100) {
+  console.log("Kolas teams wins the trophy,but not meets the minimum score");
+}
+if (dolAvg === koaAvg && dolAvg >= 100 && koaAvg >= 100) {
+  console.log("the teams are having a draw match and meets the minimum score");
+} else if (dolAvg === koaAvg && dolAvg <= 100 && koaAvg <= 100) {
+  console.log(
+    "the teams are having a draw match but not meets the minimu score"
+  );
+} */
+
+// data3
+
+dolR1 = 97;
+dolR2 = 112;
+dolR3 = 101;
+koaR1 = 109;
+koaR2 = 95;
+koaR3 = 106;
+dolAvg = (dolR1 + dolR2 + dolR3) / 3;
+console.log(dolAvg);
+koaAvg = (koaR1 + koaR2 + koaR3) / 3;
+console.log(koaAvg);
+
+if (dolAvg > koaAvg && dolAvg >= 100) {
+  console.log("dolphin team wins the trophy and meets the minimum score");
+} else if (dolAvg > koaAvg && dolAvg <= 100) {
+  console.log("dolphin teams wins the trophy,but not meets the minimum score");
+}
+if (koaAvg > dolAvg && koaAvg >= 100) {
+  console.log("kolas team wins the trophy and meets the minimum score");
+} else if (koaAvg > dolAvg && koaAvg <= 100) {
+  console.log("Kolas teams wins the trophy,but not meets the minimum score");
+}
+if (dolAvg === koaAvg && dolAvg >= 100 && koaAvg >= 100) {
+  console.log("the teams are having a draw match and meets the minimum score");
+} else if (dolAvg === koaAvg && dolAvg <= 100 && koaAvg <= 100) {
+  console.log(
+    "the teams are having a draw match but not meets the minimum score"
+  );
 }
