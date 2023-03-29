@@ -1,10 +1,3 @@
-// let country = "India";
-// let continent = "Asia";
-// let population = "1.4m millions";
-// console.log(country);
-// console.log(continent);
-// console.log(population);
-
 // let isIsland = "Andaman&Nicobar islands";
 // console.log(isIsland);
 // console.log(typeof isIsland);
@@ -141,3 +134,35 @@ if (day === "monday") {
 } else {
   console.log("not a valid day!");
 } */
+
+/* let a = "10";
+let b = 20;
+console.log(typeof b);
+console.log(`the addition of ${a}and ${b}is ${a * b}`); */
+
+/* let language = "telugu";
+switch (language) {
+  case "chinese":
+  case "mandrin":
+    console.log("MOST number of native speakers!");
+    break;
+  case "spanish":
+    console.log("2nd place in number of native speakers");
+    break;
+  case "english":
+    console.log("3rd place'");
+    break;
+  case "hindi":
+    console.log("Number 4");
+  case "arabic":
+    console.log("5th most spoken language");
+    break;
+  default:
+    console.log("Great language too :D");
+    break;
+} */
+
+let IndPop = 13;
+IndPop >= 33
+  ? console.log("Portugal's population is above average")
+  : console.log("Portugal's population is below average");
