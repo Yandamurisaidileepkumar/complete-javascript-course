@@ -39,7 +39,7 @@ console.log(juicer(2, 3)); */
 
 // functions
 
-let calAge = function (year) {
+/* let calAge = function (year) {
   return 2023 - year;
 };
 
@@ -49,3 +49,38 @@ let retirement = function (birthyear, fName) {
   return `the name of the candidate is ${fName} and the retirementage is ${retirementAge}`;
 };
 console.log(retirement(1999, "srinu"));
+ */
+
+// arrayscs..
+
+// let years = new Array(2020, 2021, 2022, 2023, 2024, 2025);
+
+// console.log(years);
+
+/* let a = "dileep";
+a = "surya";
+console.log(a); */
+
+/* function outer() {
+  let counter = 0;
+  function inner() {
+    counter += 2;
+    console.log(counter);
+  }
+  inner();
+  inner();
+  inner();
+}
+outer();
+outer();
+outer();
+ */
+
+/* const str = [1, 2, 3];
+const arr = [...str, 4, 5, 6, 7];
+console.log(arr); */
+
+let arr = ["dileep", "surya", "venu", ["vasu", "narasimha", "hari"]];
+// arr.push("narsimha");
+console.log(arr.length);
+console.log(arr[3][0]);
