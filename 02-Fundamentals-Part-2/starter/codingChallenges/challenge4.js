@@ -23,3 +23,28 @@ length of the array (because that's the number of elements)
 4.3. Call the function with the 'totals' array
 GOOD LUCK �
  */
+let number = [10, 20, 30, 50, 60, 77, 88, 99, 55, 24, 2, 25, 5];
+let calcAverage = function () {
+  let sum = 0;
+  for (let i = 0; i < number.length; i++) {
+    sum += number[i];
+  }
+  return sum / number.length;
+};
+console.log(calcAverage(number));
+
+/* let bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+let tips = [];
+let totals = [];
+
+function calcTip(bill) {
+  bill > 50 && bill < 300 ? (tipPer = 15) : (tipPer = 20);
+  tipValue = (bill / 100) * tipPer;
+  return tips.push(tipValue);
+}
+for (i = 0; i <= bills.length - 1; i++) {
+  calcTip(bills[i]);
+  total = bills[i] + tips[i];
+  totals.push(total);
+}
+console.log(bills, tips, totals); */
