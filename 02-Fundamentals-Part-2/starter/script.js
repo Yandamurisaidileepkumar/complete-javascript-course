@@ -1,86 +1,142 @@
-// function fruitProcessor(apple, oranges) {
-//   console.log(apple, oranges);
-//   const juice = `jucie with ${apple} apples and ${oranges} oranges`;
-//   return juice;
+// // function fruitProcessor(apple, oranges) {
+// //   console.log(apple, oranges);
+// //   const juice = `jucie with ${apple} apples and ${oranges} oranges`;
+// //   return juice;
+// // }
+// // console.log(fruitProcessor(5, 5));
+
+// // arrowfunction
+// /* let retirementAge = (birthYear, Name) => {
+//   let age = 2022 - birthYear;
+//   let retirement = 65 - age;
+//   return `the name is ${Name} and the retirmentage is ${retirement}`;
+// };
+// let add = retirementAge(1998, "Dileep");
+// let add2 = add(1999, "narsimha");
+// console.log(add2); */
+
+// /* function retirement(birthday) {
+//   let age = 2023 - birthday;
+//   let retirementAge = 65 - age;
+//   return retirementAge;
 // }
-// console.log(fruitProcessor(5, 5));
+// let add = retirement(1998);
+// let add2 = add(1999);
+// console.log(add2);
+//  */
 
-// arrowfunction
-/* let retirementAge = (birthYear, Name) => {
-  let age = 2022 - birthYear;
-  let retirement = 65 - age;
-  return `the name is ${Name} and the retirmentage is ${retirement}`;
-};
-let add = retirementAge(1998, "Dileep");
-let add2 = add(1999, "narsimha");
-console.log(add2); */
+// // function calling within another function
+// /* let fruitCutter = function (fruit) {
+//   return fruit * 3;
+// };
 
-/* function retirement(birthday) {
-  let age = 2023 - birthday;
-  let retirementAge = 65 - age;
-  return retirementAge;
-}
-let add = retirement(1998);
-let add2 = add(1999);
-console.log(add2);
- */
+// let juicer = function (apples, oranges) {
+//   let applepieces = fruitCutter(apples);
+//   let orangepieces = fruitCutter(oranges);
+//   return `the juice is madeup of ${applepieces} applepices and ${orangepieces} orangepieces.`;
+// };
+// console.log(juicer(2, 3)); */
 
-// function calling within another function
-/* let fruitCutter = function (fruit) {
-  return fruit * 3;
-};
+// // functions
 
-let juicer = function (apples, oranges) {
-  let applepieces = fruitCutter(apples);
-  let orangepieces = fruitCutter(oranges);
-  return `the juice is madeup of ${applepieces} applepices and ${orangepieces} orangepieces.`;
-};
-console.log(juicer(2, 3)); */
+// /* let calAge = function (year) {
+//   return 2023 - year;
+// };
 
-// functions
+// let retirement = function (birthyear, fName) {
+//   let age = calAge(birthyear);
+//   let retirementAge = 65 - age;
+//   return `the name of the candidate is ${fName} and the retirementage is ${retirementAge}`;
+// };
+// console.log(retirement(1999, "srinu"));
+//  */
 
-/* let calAge = function (year) {
-  return 2023 - year;
-};
+// // arrayscs..
 
-let retirement = function (birthyear, fName) {
-  let age = calAge(birthyear);
-  let retirementAge = 65 - age;
-  return `the name of the candidate is ${fName} and the retirementage is ${retirementAge}`;
-};
-console.log(retirement(1999, "srinu"));
- */
+// // let years = new Array(2020, 2021, 2022, 2023, 2024, 2025);
 
-// arrayscs..
+// // console.log(years);
 
-// let years = new Array(2020, 2021, 2022, 2023, 2024, 2025);
+// /* let a = "dileep";
+// a = "surya";
+// console.log(a); */
 
-// console.log(years);
+// /* function outer() {
+//   let counter = 0;
+//   function inner() {
+//     counter += 2;
+//     console.log(counter);
+//   }
+//   inner();
+//   inner();
+//   inner();
+// }
+// outer();
+// outer();
+// outer();
+//  */
 
-/* let a = "dileep";
-a = "surya";
-console.log(a); */
+// /* const str = [1, 2, 3];
+// const arr = [...str, 4, 5, 6, 7];
+// console.log(arr); */
 
-/* function outer() {
-  let counter = 0;
-  function inner() {
-    counter += 2;
-    console.log(counter);
-  }
-  inner();
-  inner();
-  inner();
-}
-outer();
-outer();
-outer();
- */
+// /* let arr = ["dileep", "surya", "venu", ["vasu", "narasimha", "hari"]];
+// // arr.push("narsimha");
+// console.log(arr.length);
+// console.log(arr[3][0]); */
 
-/* const str = [1, 2, 3];
-const arr = [...str, 4, 5, 6, 7];
-console.log(arr); */
+// let employee = {
+//   empfName: "dileep",
+//   emplName: "kumar",
+//   empid: 101,
+//   empEmail: "yandamuridileepkumar16@gmail.com",
+//   empLoc: "kakinada",
+//   birthyear: 1998,
+//   calcAge: function () {
+//     console.log(this);
+//     return 2023 - this.birthyear;
+//   },
+// };
+// /* console.log(employee);
+// console.log(employee.empfName + employee.emplName);
 
-let arr = ["dileep", "surya", "venu", ["vasu", "narasimha", "hari"]];
-// arr.push("narsimha");
-console.log(arr.length);
-console.log(arr[3][0]);
+// let intrestedIn = prompt(
+//   "what do you want about employee? select from the options empfName,emplName,empid,empEmail.empLoc"
+// );
+// console.log(employee[intrestedIn]);
+
+// if (employee[intrestedIn]) {
+//   console.log(employee[intrestedIn]);
+// } else {
+//   console.log(alert("wrong input please select from the options given"));
+// } */
+
+// employee.friends = ["surya", "venu", "vasu", "narasimha", "srikanth"];
+// /* console.log(employee);
+// console.log(employee.friends[0]); */
+
+// // employee["newLoc"] = "nellore";
+// // // console.log(employee);
+// // employee["birthyear"] = 1998;
+// // console.log(employee);
+
+// // console.log(employee.calcAge());
+// // function calAge(empfName) {
+// //   employee.empfName = empfName;
+// // }
+// // let p1 = new calAge("king");
+// // console.log(p1.empfName);
+// // console.log(employee);
+
+// function calcAge() {
+//   this.age = 2023 - this.birthyear;
+//   return this.age;
+// }
+// console.log(calcAge.call(employee));
+// console.log(calcAge.call(employee));
+// console.log(employee);
+
+let number = Math.random() * 4;
+console.log(number);
+let number1 = number + 1;
+console.log(number1);
