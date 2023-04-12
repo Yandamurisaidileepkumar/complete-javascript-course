@@ -136,7 +136,32 @@
 // console.log(calcAge.call(employee));
 // console.log(employee);
 
-let number = Math.random() * 4;
+/* let number = Math.random() * 4;
 console.log(number);
 let number1 = number + 1;
-console.log(number1);
+console.log(number1); */
+
+// let msg = alert("hi,Good Morning");
+// console.log(msg);
+
+//assignment
+
+const population = [1441, 1393, 335, 798];
+// console.log(population.length === 4);
+const worldPop = 7900;
+const country = ["China", "India", "USA", "UK"];
+const percentages = [];
+function percentageOfWorld1() {
+  for (i = 0; i <= population.length - 1 && i <= country.length - 1; i++) {
+    const sum = `${(population[i] / worldPop) * 100}`;
+    console.log(
+      `${country[i]}is a ${population[i]}million people, so it's about ${
+        (population[i] / worldPop) * 100
+      } of the world population`
+    );
+    percentages.push(sum);
+  }
+}
+
+percentageOfWorld1(country, population, worldPop);
+console.log(percentages);
