@@ -165,3 +165,4 @@ function percentageOfWorld1() {
 
 percentageOfWorld1(country, population, worldPop);
 console.log(percentages);
+console.log(percentages);

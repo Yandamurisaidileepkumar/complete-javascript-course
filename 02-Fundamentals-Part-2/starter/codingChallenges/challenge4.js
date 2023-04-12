@@ -23,7 +23,7 @@ length of the array (because that's the number of elements)
 4.3. Call the function with the 'totals' array
 GOOD LUCK �
  */
-let number = [10, 20, 30, 50, 60, 77, 88, 99, 55, 24, 2, 25, 5];
+let number = [10, 20, 30, 50, 50, 60, 77, 88, 99, 55, 24, 2, 25, 5];
 let calcAverage = function () {
   let sum = 0;
   for (let i = 0; i < number.length; i++) {
