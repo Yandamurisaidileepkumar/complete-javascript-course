@@ -1,4 +1,4 @@
-// // function fruitProcessor(apple, oranges) {
+/* // // function fruitProcessor(apple, oranges) {
 // //   console.log(apple, oranges);
 // //   const juice = `jucie with ${apple} apples and ${oranges} oranges`;
 // //   return juice;
@@ -146,7 +146,7 @@ console.log(number1); */
 
 //assignment
 
-const population = [1441, 1393, 335, 798];
+/*const population = [1441, 1393, 335, 798];
 // console.log(population.length === 4);
 const worldPop = 7900;
 const country = ["China", "India", "USA", "UK"];
@@ -165,4 +165,6 @@ function percentageOfWorld1() {
 
 percentageOfWorld1(country, population, worldPop);
 console.log(percentages);
-console.log(percentages);
+console.log(percentages);*/
+
+let;
