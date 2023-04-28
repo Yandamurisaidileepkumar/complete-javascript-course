@@ -91,6 +91,50 @@ var me = 'dileep';
 let job = 'fencing coach';
 const year = 1999;
  */
-var num = 10;
+/* var num = 10;
 console.log(!num);
 console.log(typeof !num);
+ */
+
+/* let a = 10;
+let b = '20';
+console.log(a + b);
+console.log(typeof (a + b));
+// let c = Number(undefined);
+let c;
+console.log(c);
+ */
+const self = this;
+
+const jonas = {
+  firstName: 'dileep',
+  year: 1999,
+  calcAge: function () {
+    // console.log(this);
+    console.log(2023 - this.year);
+
+    const millineal = function () {
+      console.log(this.year >= 1981 && this.year <= 1996);
+      millineal();
+    };
+  },
+
+  greet: () => {
+    console.log(this);
+    console.log(`hi this is ${this.firstName}`);
+  },
+};
+jonas.greet();
+jonas.calcAge();
+
+function parent() {
+  counter++;
+  function child() {
+    var counter = 0;
+    console.log(counter);
+  }
+  child();
+  child();
+  child();
+}
+parent();
